@@ -1,0 +1,6 @@
+@api_cadastro_backend.API_HostAddress = http://localhost:5233
+
+GET {{api_cadastro_backend.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

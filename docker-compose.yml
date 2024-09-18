@@ -1,0 +1,6 @@
+﻿services:
+  api-cadastro-backend.api:
+    image: api-cadastro-backend.api
+    build:
+      context: .
+      dockerfile: src/Backend/api-cadastro-backend.API/Dockerfile
