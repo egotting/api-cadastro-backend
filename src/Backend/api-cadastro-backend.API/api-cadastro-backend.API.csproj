@@ -10,6 +10,10 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.8"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
     </ItemGroup>
 
@@ -20,9 +24,13 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Shared\api-cadastro-backend.Communication\api-cadastro-backend.Communication.csproj" />
-      <ProjectReference Include="..\..\Shared\api-cadastro-backend.Exceptions\api-cadastro-backend.Exceptions.csproj" />
       <ProjectReference Include="..\api-cadastro-backend.Application\api-cadastro-backend.Application.csproj" />
+      <ProjectReference Include="..\api-cadastro-backend.Infrastructure\api-cadastro-backend.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Controller\" />
+      <Folder Include="Middlwares\" />
     </ItemGroup>
 
 </Project>

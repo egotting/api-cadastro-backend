@@ -8,8 +8,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Shared\api-cadastro-backend.Communication\api-cadastro-backend.Communication.csproj" />
-      <ProjectReference Include="..\..\Shared\api-cadastro-backend.Exceptions\api-cadastro-backend.Exceptions.csproj" />
       <ProjectReference Include="..\api-cadastro-backend.Domain\api-cadastro-backend.Domain.csproj" />
     </ItemGroup>
 
