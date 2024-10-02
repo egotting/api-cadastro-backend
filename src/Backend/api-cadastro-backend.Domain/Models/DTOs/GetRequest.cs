@@ -1,3 +1,5 @@
-﻿namespace api_cadastro_backend.Domain.Models.DTOs;
+﻿using api_cadastro_backend.Domain.Interfaces.UseCases;
 
-public class GetRequest();
+namespace api_cadastro_backend.Domain.Models.DTOs;
+
+public class GetRequest() : IUseCaseRequest;

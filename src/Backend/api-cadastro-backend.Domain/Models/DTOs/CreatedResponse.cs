@@ -1,3 +1,5 @@
-﻿namespace api_cadastro_backend.Domain.Models.DTOs;
+﻿using api_cadastro_backend.Domain.Interfaces.UseCases;
 
-public record CreatedResponse();
+namespace api_cadastro_backend.Domain.Models.DTOs;
+
+public record CreatedResponse(long? id) : IUseCaseResponse;

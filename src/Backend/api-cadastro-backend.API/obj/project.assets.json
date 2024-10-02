@@ -1009,6 +1009,16 @@
           "bin/placeholder/api-cadastro-backend.Domain.dll": {}
         }
       },
+      "api-cadastro-backend.Exceptions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/api-cadastro-backend.Exceptions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/api-cadastro-backend.Exceptions.dll": {}
+        }
+      },
       "api-cadastro-backend.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1023,6 +1033,23 @@
         },
         "runtime": {
           "bin/placeholder/api-cadastro-backend.Infrastructure.dll": {}
+        }
+      },
+      "api-cadastro-backend.loC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "api-cadastro-backend.Domain": "1.0.0",
+          "api-cadastro-backend.Exceptions": "1.0.0",
+          "api-cadastro-backend.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/api-cadastro-backend.loC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/api-cadastro-backend.loC.dll": {}
         }
       }
     }
@@ -2776,10 +2803,20 @@
       "path": "../api-cadastro-backend.Domain/api-cadastro-backend.Domain.csproj",
       "msbuildProject": "../api-cadastro-backend.Domain/api-cadastro-backend.Domain.csproj"
     },
+    "api-cadastro-backend.Exceptions/1.0.0": {
+      "type": "project",
+      "path": "../api-cadastro-backend.Exceptions/api-cadastro-backend.Exceptions.csproj",
+      "msbuildProject": "../api-cadastro-backend.Exceptions/api-cadastro-backend.Exceptions.csproj"
+    },
     "api-cadastro-backend.Infrastructure/1.0.0": {
       "type": "project",
       "path": "../api-cadastro-backend.Infrastructure/api-cadastro-backend.Infrastructure.csproj",
       "msbuildProject": "../api-cadastro-backend.Infrastructure/api-cadastro-backend.Infrastructure.csproj"
+    },
+    "api-cadastro-backend.loC/1.0.0": {
+      "type": "project",
+      "path": "../api-cadastro-backend.loC/api-cadastro-backend.loC.csproj",
+      "msbuildProject": "../api-cadastro-backend.loC/api-cadastro-backend.loC.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2788,7 +2825,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "api-cadastro-backend.Application >= 1.0.0",
-      "api-cadastro-backend.Infrastructure >= 1.0.0"
+      "api-cadastro-backend.Infrastructure >= 1.0.0",
+      "api-cadastro-backend.loC >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2824,6 +2862,9 @@
             },
             "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.Infrastructure\\api-cadastro-backend.Infrastructure.csproj": {
               "projectPath": "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.Infrastructure\\api-cadastro-backend.Infrastructure.csproj"
+            },
+            "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.loC\\api-cadastro-backend.loC.csproj": {
+              "projectPath": "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.loC\\api-cadastro-backend.loC.csproj"
             }
           }
         }

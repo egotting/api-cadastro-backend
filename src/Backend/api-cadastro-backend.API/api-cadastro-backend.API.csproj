@@ -26,10 +26,10 @@
     <ItemGroup>
       <ProjectReference Include="..\api-cadastro-backend.Application\api-cadastro-backend.Application.csproj" />
       <ProjectReference Include="..\api-cadastro-backend.Infrastructure\api-cadastro-backend.Infrastructure.csproj" />
+      <ProjectReference Include="..\api-cadastro-backend.loC\api-cadastro-backend.loC.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controller\" />
       <Folder Include="Middlwares\" />
     </ItemGroup>
 
