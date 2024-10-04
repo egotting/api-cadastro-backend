@@ -1,0 +1,16 @@
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Application\bin\Debug\net8.0\api-cadastro-backend.Application.deps.json
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Application\bin\Debug\net8.0\api-cadastro-backend.Application.dll
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Application\bin\Debug\net8.0\api-cadastro-backend.Application.pdb
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Application\bin\Debug\net8.0\api-cadastro-backend.Domain.dll
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Application\bin\Debug\net8.0\api-cadastro-backend.Domain.pdb
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Application\obj\Debug\net8.0\api-cadastro-backend.Application.csproj.AssemblyReference.cache
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Application\obj\Debug\net8.0\api-cadastro-backend.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Application\obj\Debug\net8.0\api-cadastro-backend.Application.AssemblyInfoInputs.cache
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Application\obj\Debug\net8.0\api-cadastro-backend.Application.AssemblyInfo.cs
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Application\obj\Debug\net8.0\api-cadastro-backend.Application.csproj.CoreCompileInputs.cache
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Application\obj\Debug\net8.0\api-cadastro-backend.Application.sourcelink.json
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Application\obj\Debug\net8.0\api-cada.3F38B1B1.Up2Date
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Application\obj\Debug\net8.0\api-cadastro-backend.Application.dll
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Application\obj\Debug\net8.0\refint\api-cadastro-backend.Application.dll
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Application\obj\Debug\net8.0\api-cadastro-backend.Application.pdb
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Application\obj\Debug\net8.0\ref\api-cadastro-backend.Application.dll

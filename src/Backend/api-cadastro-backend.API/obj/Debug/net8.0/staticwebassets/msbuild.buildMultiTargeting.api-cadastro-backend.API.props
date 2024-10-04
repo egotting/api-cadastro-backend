@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\api-cadastro-backend.API.props" />
+</Project>

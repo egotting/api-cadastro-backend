@@ -1,0 +1,12 @@
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Domain\bin\Debug\net8.0\api-cadastro-backend.Domain.deps.json
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Domain\bin\Debug\net8.0\api-cadastro-backend.Domain.dll
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Domain\bin\Debug\net8.0\api-cadastro-backend.Domain.pdb
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Domain\obj\Debug\net8.0\api-cadastro-backend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Domain\obj\Debug\net8.0\api-cadastro-backend.Domain.AssemblyInfoInputs.cache
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Domain\obj\Debug\net8.0\api-cadastro-backend.Domain.AssemblyInfo.cs
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Domain\obj\Debug\net8.0\api-cadastro-backend.Domain.csproj.CoreCompileInputs.cache
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Domain\obj\Debug\net8.0\api-cadastro-backend.Domain.sourcelink.json
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Domain\obj\Debug\net8.0\api-cadastro-backend.Domain.dll
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Domain\obj\Debug\net8.0\refint\api-cadastro-backend.Domain.dll
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Domain\obj\Debug\net8.0\api-cadastro-backend.Domain.pdb
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Domain\obj\Debug\net8.0\ref\api-cadastro-backend.Domain.dll
