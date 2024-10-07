@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("api-cadastro-backend.loC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b52d41f2b7a2cc7896e65d9efbbd7838de8303d9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1408d2ec95a9cef2ba1f458fb4c8e30acfd4cfd3")]
 [assembly: System.Reflection.AssemblyProductAttribute("api-cadastro-backend.loC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("api-cadastro-backend.loC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

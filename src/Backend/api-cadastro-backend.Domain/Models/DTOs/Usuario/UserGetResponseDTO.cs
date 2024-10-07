@@ -1,6 +1,6 @@
 ﻿using api_cadastro_backend.Domain.Interfaces.UseCases;
 
-namespace api_cadastro_backend.Domain.Models.DTOs;
+namespace api_cadastro_backend.Domain.Models.DTOs.Usuario;
 
 public class UserGetResponseDTO() : IUseCaseResponse
 {

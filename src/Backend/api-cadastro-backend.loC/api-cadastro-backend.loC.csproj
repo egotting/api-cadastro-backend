@@ -8,6 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\api-cadastro-backend.Application\api-cadastro-backend.Application.csproj" />
       <ProjectReference Include="..\api-cadastro-backend.Domain\api-cadastro-backend.Domain.csproj" />
       <ProjectReference Include="..\api-cadastro-backend.Exceptions\api-cadastro-backend.Exceptions.csproj" />
       <ProjectReference Include="..\api-cadastro-backend.Infrastructure\api-cadastro-backend.Infrastructure.csproj" />

@@ -111,3 +111,7 @@ E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backen
 E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.API\bin\Debug\net8.0\api-cadastro-backend.Exceptions.dll
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.API\bin\Debug\net8.0\api-cadastro-backend.loC.dll
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.API\bin\Debug\net8.0\api-cadastro-backend.loC.pdb
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.API\bin\Debug\net8.0\api-cadastro-backend.Exceptions.pdb

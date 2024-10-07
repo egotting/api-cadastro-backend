@@ -1,6 +1,8 @@
 ﻿namespace api_cadastro_backend.Domain.Interfaces.UseCases;
 
-public class IUseCaseHandler
+public interface IUseCaseHandler<TRequest, TResponse>
+    where TRequest : IUseCaseRequest
+    where TResponse : IUseCaseResponse
 {
-    
+    Task<TResponse> Execute();
 }

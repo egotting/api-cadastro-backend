@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "api-cadastro-backend.Exceptions/1.0.0": {
+        "runtime": {
+          "api-cadastro-backend.Exceptions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "api-cadastro-backend.Exceptions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

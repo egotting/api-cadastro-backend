@@ -1,10 +1,11 @@
 ﻿using api_cadastro_backend.Domain.Interfaces.Repositories;
 using api_cadastro_backend.Domain.Interfaces.UseCases;
 using api_cadastro_backend.Domain.Models.DTOs;
+using api_cadastro_backend.Domain.Models.DTOs.Usuario;
 
 namespace api_cadastro_backend.Application.UseCases.Usuario;
 
-public class UsuarioGetUseCase //: IUseCaseHandler<GetRequest, UserGetResponseDTO>
+public class UsuarioGetUseCase : IUseCaseHandlerRes<UserGetResponseDTO>
 {
     private readonly IUserRepository _repository;
 
@@ -13,7 +14,8 @@ public class UsuarioGetUseCase //: IUseCaseHandler<GetRequest, UserGetResponseDT
         _repository = repository;
     }
     
-    // public  Task<IEnumerable<UserGetResponseDTO>> Handle(GetRequest request)
-    // {
-    // }
+    public async Task<IEnumerable<Domain.Models.Usuario>> Handle()
+    {
+        return await _repository.GetAsync() ?? throw new Exception();
+    }
 }
