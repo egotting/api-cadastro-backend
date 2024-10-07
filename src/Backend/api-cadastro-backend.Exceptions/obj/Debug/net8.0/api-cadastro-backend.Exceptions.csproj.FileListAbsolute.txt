@@ -1,0 +1,12 @@
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Exceptions\bin\Debug\net8.0\api-cadastro-backend.Exceptions.deps.json
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Exceptions\bin\Debug\net8.0\api-cadastro-backend.Exceptions.dll
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Exceptions\bin\Debug\net8.0\api-cadastro-backend.Exceptions.pdb
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Exceptions\obj\Debug\net8.0\api-cadastro-backend.Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Exceptions\obj\Debug\net8.0\api-cadastro-backend.Exceptions.AssemblyInfoInputs.cache
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Exceptions\obj\Debug\net8.0\api-cadastro-backend.Exceptions.AssemblyInfo.cs
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Exceptions\obj\Debug\net8.0\api-cadastro-backend.Exceptions.csproj.CoreCompileInputs.cache
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Exceptions\obj\Debug\net8.0\api-cadastro-backend.Exceptions.sourcelink.json
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Exceptions\obj\Debug\net8.0\api-cadastro-backend.Exceptions.dll
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Exceptions\obj\Debug\net8.0\refint\api-cadastro-backend.Exceptions.dll
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Exceptions\obj\Debug\net8.0\api-cadastro-backend.Exceptions.pdb
+E:\repo\github.com\egotting\api-cadastro-backend\src\Backend\api-cadastro-backend.Exceptions\obj\Debug\net8.0\ref\api-cadastro-backend.Exceptions.dll
