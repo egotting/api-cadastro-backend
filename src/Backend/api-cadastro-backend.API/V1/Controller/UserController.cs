@@ -1,6 +1,5 @@
 ﻿using api_cadastro_backend.Domain.Interfaces.UseCases;
 using api_cadastro_backend.Domain.Interfaces.UseCases.Handler;
-using api_cadastro_backend.Domain.Models.DTOs;
 using api_cadastro_backend.Domain.Models.DTOs.Usuario;
 using Microsoft.AspNetCore.Mvc;
 
