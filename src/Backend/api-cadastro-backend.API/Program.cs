@@ -9,18 +9,21 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddInfrastructure();
-builder.Services.ConfigureUseCasesHandlers();
 builder.Services.ConfigureService(builder.Configuration);
+builder.Services.ConfigureUseCasesHandlers();
+builder.Services.ConfigureUseCaseHandlersRes();
 
 var app = builder.Build();
 await app.Services.RunMigrations();
+app.UseRouting();
 
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI();    
 }
-app.UseRouting();
+app.UseHttpsRedirection();
+
 app.MapControllers();
-//app.UseHttpsRedirection();
+
 app.Run();

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("api-cadastro-backend.Exceptions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9b90d17b88660371e3dd960edb0ec864e582fa6a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c9c935947c6d64711ff6052f37a2f3aecbba46c")]
 [assembly: System.Reflection.AssemblyProductAttribute("api-cadastro-backend.Exceptions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("api-cadastro-backend.Exceptions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
