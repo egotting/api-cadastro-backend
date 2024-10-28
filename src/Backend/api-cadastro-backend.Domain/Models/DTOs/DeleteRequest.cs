@@ -5,10 +5,10 @@ namespace api_cadastro_backend.Domain.Models.DTOs;
 
 public class DeleteRequest : IUseCaseRequest
 {
-    public long Id { get; set; }
+    public string Email { get; set; }
 
-    public DeleteRequest(long id)
+    public DeleteRequest(string email)
     {
-        Id = id;
+        Email = email;
     }
 }

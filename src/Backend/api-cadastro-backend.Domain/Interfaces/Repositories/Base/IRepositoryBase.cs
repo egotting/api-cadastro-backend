@@ -5,8 +5,8 @@ namespace api_cadastro_backend.Domain.Interfaces.Repositories.Base;
 public interface IRepositoryBase<TEntity> where TEntity : BaseEntity
 {
     ValueTask<TEntity> AddAsync(TEntity entity);
-    ValueTask<TEntity> GetByIdAsync(long? id);
+    ValueTask<TEntity?> GetByEmailAsync(string email);
     ValueTask<IEnumerable<TEntity>> GetAsync();
-    Task DeleteAsync(long? id);
-    ValueTask<bool> ExistsByIdAsync(long? id);
+    Task DeleteAsync(string email);
+    ValueTask<bool> ExistsByIdAsync(string email);
 }

@@ -8,6 +8,9 @@ public interface IUseCaseHandlerFactory
         where TRequest : IUseCaseRequest
         where TResponse : IUseCaseResponse;
 
-    IUseCaseHandlerResponse<TResponse> CreateHandler<TResponse>()
+    IUseCaseHandlerResponse<TResponse> CreateHandlerResponse<TResponse>()
         where TResponse : IUseCaseResponse;
+
+    IUseCaseHandlerRequest<TRequest> CreateHandlerRequest<TRequest>() 
+        where TRequest : IUseCaseRequest;
 }

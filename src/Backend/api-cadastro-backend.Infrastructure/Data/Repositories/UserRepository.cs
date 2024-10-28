@@ -11,17 +11,4 @@ public class UserRepository : RepositoryBase<Usuario>, IUserRepository
     public UserRepository(DataContext dataContext) : base(dataContext)
     {
     }
-
-    public async Task<bool> AnyExistUserByEmail(string email)
-    {
-        return await DbSet.AnyAsync(u => u.Email == email);   
-    }
-
-    public async Task<Usuario> GetByEmailAsync(string email)
-    {
-        return await DbSet
-            .Include(x => x.Email)
-            .Where(x => x.Email == email)
-            .FirstOrDefaultAsync();
-    }
 }

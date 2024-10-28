@@ -1,11 +1,12 @@
 ﻿using api_cadastro_backend.Domain.Interfaces.Repositories.Base;
+using api_cadastro_backend.Domain.Models;
 using api_cadastro_backend.Domain.Models.Base;
 using api_cadastro_backend.Infrastructure.Data.Context;
 using Microsoft.EntityFrameworkCore;
 
 namespace api_cadastro_backend.Infrastructure.Data.Repositories.Base;
 
-public class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : BaseEntity
+public class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : Usuario
 {
     protected DataContext DataContext { get; set; }
     public DbSet<TEntity> DbSet { get; set; }
@@ -32,21 +33,25 @@ public class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : 
         return entity;
     }
 
-    public async ValueTask<TEntity> GetByIdAsync(long? id)
-        => await DbSet.AsNoTrackingWithIdentityResolution()
-            .FirstOrDefaultAsync(x => x.Id == id);
+    public async ValueTask<TEntity?> GetByEmailAsync(string email)
+        => await DbSet
+            .SingleOrDefaultAsync(e => e.Email == email);
 
     public async ValueTask<IEnumerable<TEntity>> GetAsync() 
         => await DbSet.AsNoTrackingWithIdentityResolution().ToListAsync();
 
-    public async Task DeleteAsync(long? id)
+    public async Task DeleteAsync(string email)
     {
-        var entity = await GetByIdAsync(id);
+        var entity = await GetByEmailAsync(email);
+        if (entity == null)
+        {
+            throw new Exception("User not found");
+        }
         DbSet.Remove(entity);
-        await DataContext.SaveChangesAsync();
+        await DataContext.SaveChangesAsync();   
     }
 
-    public async ValueTask<bool> ExistsByIdAsync(long? id) 
-        => await DbSet.AnyAsync(x => x.Id == id);
+    public async ValueTask<bool> ExistsByIdAsync(string email) 
+        => await DbSet.AnyAsync(x => x.Email == email);
 
 }

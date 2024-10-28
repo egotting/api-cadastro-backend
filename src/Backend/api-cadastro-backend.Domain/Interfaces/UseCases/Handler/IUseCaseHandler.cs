@@ -2,5 +2,5 @@
 
 public interface IUseCaseHandler<TRequest, TResponse>
 {
-    Task<TResponse> Handle(TRequest request);
+    Task<TResponse> Handle(TRequest request, CancellationToken cancellationToken);
 }

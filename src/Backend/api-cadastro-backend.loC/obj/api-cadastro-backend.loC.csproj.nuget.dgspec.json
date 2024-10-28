@@ -10,11 +10,11 @@
         "projectUniqueName": "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.Application\\api-cadastro-backend.Application.csproj",
         "projectName": "api-cadastro-backend.Application",
         "projectPath": "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.Application\\api-cadastro-backend.Application.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\ego\\.nuget\\packages\\",
         "outputPath": "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ego\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -28,6 +28,9 @@
             "projectReferences": {
               "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.Domain\\api-cadastro-backend.Domain.csproj": {
                 "projectPath": "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.Domain\\api-cadastro-backend.Domain.csproj"
+              },
+              "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.Exceptions\\api-cadastro-backend.Exceptions.csproj": {
+                "projectPath": "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.Exceptions\\api-cadastro-backend.Exceptions.csproj"
               }
             }
           }
@@ -47,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -68,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Administrator\\.dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -78,11 +85,11 @@
         "projectUniqueName": "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.Domain\\api-cadastro-backend.Domain.csproj",
         "projectName": "api-cadastro-backend.Domain",
         "projectPath": "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.Domain\\api-cadastro-backend.Domain.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\ego\\.nuget\\packages\\",
         "outputPath": "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ego\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -126,7 +133,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Administrator\\.dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -136,11 +143,11 @@
         "projectUniqueName": "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.Exceptions\\api-cadastro-backend.Exceptions.csproj",
         "projectName": "api-cadastro-backend.Exceptions",
         "projectPath": "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.Exceptions\\api-cadastro-backend.Exceptions.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\ego\\.nuget\\packages\\",
         "outputPath": "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.Exceptions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ego\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -184,7 +191,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Administrator\\.dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -194,11 +201,11 @@
         "projectUniqueName": "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.Infrastructure\\api-cadastro-backend.Infrastructure.csproj",
         "projectName": "api-cadastro-backend.Infrastructure",
         "projectPath": "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.Infrastructure\\api-cadastro-backend.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\ego\\.nuget\\packages\\",
         "outputPath": "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ego\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -266,7 +273,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Administrator\\.dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -276,11 +283,11 @@
         "projectUniqueName": "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.loC\\api-cadastro-backend.loC.csproj",
         "projectName": "api-cadastro-backend.loC",
         "projectPath": "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.loC\\api-cadastro-backend.loC.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\ego\\.nuget\\packages\\",
         "outputPath": "E:\\repo\\github.com\\egotting\\api-cadastro-backend\\src\\Backend\\api-cadastro-backend.loC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ego\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -322,6 +329,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -347,7 +358,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Administrator\\.dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

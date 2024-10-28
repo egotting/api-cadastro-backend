@@ -19,20 +19,9 @@ public class UnitOfWorkEF : IUnitOfWork
         => Transaction = _context.Database.BeginTransaction();
 
     public void Commit()
-    {
-        throw new NotImplementedException();
-    }
+        => Transaction.Commit();
 
     public void CallBack()
-    {
-        throw new NotImplementedException();
-    }
-    
-    //
-    // public void Commit() 
-    //     => Transaction = _context.Commit();
-    //
-    // public void CallBack()
-    //     => Transaction = _context.CallBack();
+        => Transaction.Rollback();
 
 }

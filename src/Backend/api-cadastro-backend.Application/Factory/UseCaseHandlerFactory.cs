@@ -1,5 +1,4 @@
-﻿using api_cadastro_backend.Domain.Interfaces.UseCases;
-using api_cadastro_backend.Domain.Interfaces.UseCases.DTO;
+﻿using api_cadastro_backend.Domain.Interfaces.UseCases.DTO;
 using api_cadastro_backend.Domain.Interfaces.UseCases.Handler;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -22,9 +21,14 @@ public class UseCaseHandlerFactory : IUseCaseHandlerFactory
         return _serviceProvider.GetRequiredService<IUseCaseHandler<TRequest, TResponse>>();
     }
 
-    public IUseCaseHandlerResponse<TResponse> CreateHandler<TResponse>() 
+    public IUseCaseHandlerResponse<TResponse> CreateHandlerResponse<TResponse>() 
         where TResponse : IUseCaseResponse
     {
         return _serviceProvider.GetRequiredService<IUseCaseHandlerResponse<TResponse>>();
+    }
+
+    public IUseCaseHandlerRequest<TRequest> CreateHandlerRequest<TRequest>() where TRequest : IUseCaseRequest
+    {
+        return _serviceProvider.GetRequiredService<IUseCaseHandlerRequest<TRequest>>();
     }
 }

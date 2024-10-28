@@ -30,6 +30,14 @@
           }
         }
       },
+      "FluentValidation/11.10.0": {
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.10.0.0"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "runtime": {
           "lib/net6.0/Humanizer.dll": {
@@ -561,8 +569,10 @@
       "System.Threading.Channels/6.0.0": {},
       "api-cadastro-backend.Application/1.0.0": {
         "dependencies": {
+          "FluentValidation": "11.10.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
-          "api-cadastro-backend.Domain": "1.0.0"
+          "api-cadastro-backend.Domain": "1.0.0",
+          "api-cadastro-backend.Exceptions": "1.0.0"
         },
         "runtime": {
           "api-cadastro-backend.Application.dll": {
@@ -603,6 +613,7 @@
       },
       "api-cadastro-backend.loC/1.0.0": {
         "dependencies": {
+          "FluentValidation": "11.10.0",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
           "api-cadastro-backend.Application": "1.0.0",
@@ -631,6 +642,13 @@
       "sha512": "sha512-/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
       "path": "automapper/13.0.1",
       "hashPath": "automapper.13.0.1.nupkg.sha512"
+    },
+    "FluentValidation/11.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qsJGSJDdZ8qiG+lVJ70PZfJHcEdq8UQZ/tZDXoj78/iHKG6lVKtMJsD11zyyv/IPc7rwqGqnFoFLTNzpo3IPYg==",
+      "path": "fluentvalidation/11.10.0",
+      "hashPath": "fluentvalidation.11.10.0.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",

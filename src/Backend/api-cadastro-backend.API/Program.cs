@@ -11,7 +11,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddInfrastructure();
 builder.Services.ConfigureService(builder.Configuration);
 builder.Services.ConfigureUseCasesHandlers();
-builder.Services.ConfigureUseCaseHandlersRes();
+builder.Services.ConfigureUseCaseHandlersResponse();
+builder.Services.ConfigurationUseCaseHandlersRequest();
+builder.Services.ConfigureValidators();
 
 var app = builder.Build();
 await app.Services.RunMigrations();
@@ -22,7 +24,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();    
 }
-app.UseHttpsRedirection();
+
+//app.UseHttpsRedirection();
 
 app.MapControllers();
 
